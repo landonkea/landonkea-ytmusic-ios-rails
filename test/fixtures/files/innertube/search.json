@@ -1,0 +1,51 @@
+{
+  "contents": {
+    "tabbedSearchResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "musicShelfRenderer": {
+                      "title": { "runs": [{ "text": "Songs" }] },
+                      "contents": [
+                        {
+                          "musicResponsiveListItemRenderer": {
+                            "flexColumns": [
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "runs": [{ "text": "Bohemian Rhapsody" }] } } },
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "runs": [{ "text": "Queen" }] } } }
+                            ],
+                            "thumbnail": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [
+                                  { "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/small.jpg", "width": 60, "height": 60 },
+                                  { "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/large.jpg", "width": 120, "height": 120 }
+                                ]
+                              }
+                            },
+                            "overlay": {
+                              "musicItemThumbnailOverlayRenderer": {
+                                "content": {
+                                  "musicResponsiveListItemOverlayLayout": {
+                                    "musicDurationText": { "simpleText": "5:55" }
+                                  }
+                                }
+                              }
+                            },
+                            "navigationEndpoint": { "watchEndpoint": { "videoId": "fJ9rUzIMcZQ" } }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

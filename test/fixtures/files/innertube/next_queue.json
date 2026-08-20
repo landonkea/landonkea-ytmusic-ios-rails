@@ -1,0 +1,58 @@
+{
+  "contents": {
+    "singleColumnMusicWatchNextResultsRenderer": {
+      "tabbedRenderer": {
+        "watchNextTabbedResultsRenderer": {
+          "tabs": [
+            {
+              "tabRenderer": {
+                "title": "Up next",
+                "content": {
+                  "musicQueueRenderer": {
+                    "content": {
+                      "playlistPanelRenderer": {
+                        "contents": [
+                          {
+                            "playlistPanelVideoRenderer": {
+                              "videoId": "fJ9rUzIMcZQ",
+                              "title": { "runs": [{ "text": "Bohemian Rhapsody" }] },
+                              "shortBylineText": { "runs": [{ "text": "Queen" }] },
+                              "lengthText": { "runs": [{ "text": "5:55" }] },
+                              "thumbnail": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            }
+                          },
+                          {
+                            "playlistPanelVideoRenderer": {
+                              "videoId": "HgzGwKwLmgM",
+                              "title": { "runs": [{ "text": "Don't Stop Me Now" }] },
+                              "shortBylineText": { "runs": [{ "text": "Queen" }] },
+                              "lengthText": { "runs": [{ "text": "3:29" }] },
+                              "thumbnail": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/HgzGwKwLmgM/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            }
+                          },
+                          {
+                            "automixPreviewVideoRenderer": {
+                              "content": {
+                                "automixPlaylistVideoRenderer": {
+                                  "navigationEndpoint": { "watchPlaylistEndpoint": { "playlistId": "RDAMVMfJ9rUzIMcZQ" } }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

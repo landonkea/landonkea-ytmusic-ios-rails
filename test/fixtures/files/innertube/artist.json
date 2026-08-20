@@ -1,0 +1,73 @@
+{
+  "header": {
+    "musicImmersiveHeaderRenderer": {
+      "title": { "runs": [{ "text": "Queen" }] },
+      "subtitle": { "runs": [{ "text": "18.2M subscribers" }] },
+      "description": { "runs": [{ "text": "British rock band formed in London in 1970." }] },
+      "thumbnail": {
+        "musicThumbnailRenderer": {
+          "thumbnails": [
+            { "url": "https://yt3.ggpht.com/queen/small.jpg", "width": 60, "height": 60 },
+            { "url": "https://yt3.ggpht.com/queen/large.jpg", "width": 300, "height": 300 }
+          ]
+        }
+      }
+    }
+  },
+  "contents": {
+    "singleColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "musicShelfRenderer": {
+                      "title": { "simpleText": "Top songs" },
+                      "contents": [
+                        {
+                          "musicResponsiveListItemRenderer": {
+                            "flexColumns": [
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Bohemian Rhapsody" } } },
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Queen" } } }
+                            ],
+                            "thumbnail": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            },
+                            "navigationEndpoint": { "watchEndpoint": { "videoId": "fJ9rUzIMcZQ" } }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "musicCarouselShelfRenderer": {
+                      "header": { "musicCarouselShelfBasicHeaderRenderer": { "title": { "simpleText": "Albums" } } },
+                      "contents": [
+                        {
+                          "musicTwoRowItemRenderer": {
+                            "title": { "simpleText": "A Night at the Opera" },
+                            "subtitle": { "simpleText": "Queen • 1975" },
+                            "thumbnailRenderer": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/album2/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            },
+                            "navigationEndpoint": { "browseEndpoint": { "browseId": "MPREb_night123" } }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

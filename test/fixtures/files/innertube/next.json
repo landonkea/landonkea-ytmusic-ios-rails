@@ -1,0 +1,38 @@
+{
+  "contents": {
+    "singleColumnMusicWatchNextResultsRenderer": {
+      "results": {
+        "results": {
+          "contents": [
+            {
+              "musicResponsiveListItemRenderer": {
+                "flexColumns": [
+                  { "musicResponsiveListItemFlexColumnRenderer": { "text": { "runs": [{ "text": "Don't Stop Me Now" }] } } },
+                  { "musicResponsiveListItemFlexColumnRenderer": { "text": { "runs": [{ "text": "Queen" }] } } }
+                ],
+                "thumbnail": {
+                  "musicThumbnailRenderer": {
+                    "thumbnails": [{ "url": "https://i.ytimg.com/vi/HgzGwKwLmgM/default.jpg", "width": 60, "height": 60 }]
+                  }
+                },
+                "navigationEndpoint": { "watchEndpoint": { "videoId": "HgzGwKwLmgM" } }
+              }
+            },
+            {
+              "musicTwoRowItemRenderer": {
+                "title": { "runs": [{ "text": "Greatest Hits" }] },
+                "subtitle": { "runs": [{ "text": "Queen" }] },
+                "thumbnailRenderer": {
+                  "musicThumbnailRenderer": {
+                    "thumbnails": [{ "url": "https://i.ytimg.com/vi/album/default.jpg", "width": 60, "height": 60 }]
+                  }
+                },
+                "navigationEndpoint": { "browseEndpoint": { "browseId": "MPREb_abc123" } }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "playabilityStatus": { "status": "OK" },
+  "streamingData": {
+    "adaptiveFormats": [
+      {
+        "itag": 140,
+        "url": "https://example.com/audio-128.mp4",
+        "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+        "bitrate": 128000,
+        "contentLength": "1000000",
+        "approxDurationMs": "355000"
+      },
+      {
+        "itag": 251,
+        "url": "https://example.com/audio-256.webm",
+        "mimeType": "audio/webm; codecs=\"opus\"",
+        "bitrate": 256000,
+        "contentLength": "2000000",
+        "approxDurationMs": "355000"
+      },
+      {
+        "itag": 249,
+        "url": "https://example.com/audio-64.webm",
+        "mimeType": "audio/webm; codecs=\"opus\"",
+        "bitrate": 64000,
+        "contentLength": "500000",
+        "approxDurationMs": "355000"
+      },
+      {
+        "itag": 135,
+        "url": "https://example.com/video-360.mp4",
+        "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
+        "bitrate": 500000,
+        "width": 640,
+        "height": 360,
+        "contentLength": "5000000",
+        "approxDurationMs": "355000"
+      }
+    ]
+  },
+  "videoDetails": {
+    "videoId": "fJ9rUzIMcZQ",
+    "title": "Bohemian Rhapsody",
+    "lengthSeconds": "355",
+    "channelId": "UCiMhD4jzUqG-IgPzUmmytRQ",
+    "author": "Queen",
+    "viewCount": "123456789",
+    "thumbnail": {
+      "thumbnails": [
+        { "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/small.jpg", "width": 120, "height": 90 },
+        { "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/large.jpg", "width": 480, "height": 360 }
+      ]
+    }
+  }
+}

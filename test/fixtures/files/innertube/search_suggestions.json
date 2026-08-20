@@ -1,0 +1,12 @@
+{
+  "contents": [
+    {
+      "searchSuggestionsSectionRenderer": {
+        "contents": [
+          { "searchSuggestionRenderer": { "suggestion": { "runs": [{ "text": "queen" }] } } },
+          { "searchSuggestionRenderer": { "suggestion": { "runs": [{ "text": "queen bohemian rhapsody" }] } } }
+        ]
+      }
+    }
+  ]
+}

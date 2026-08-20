@@ -1,0 +1,70 @@
+{
+  "header": {
+    "musicEditablePlaylistDetailHeaderRenderer": {
+      "header": {
+        "title": { "runs": [{ "text": "A Night at the Opera" }] },
+        "subtitle": { "runs": [{ "text": "Queen • 1975 • 12 songs" }] },
+        "songCount": { "simpleText": "12 songs" },
+        "thumbnail": {
+          "musicThumbnailRenderer": {
+            "thumbnails": [
+              { "url": "https://i.ytimg.com/vi/album2/small.jpg", "width": 60, "height": 60 },
+              { "url": "https://i.ytimg.com/vi/album2/large.jpg", "width": 300, "height": 300 }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "contents": {
+    "singleColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "musicShelfRenderer": {
+                      "title": { "simpleText": "Tracks" },
+                      "contents": [
+                        {
+                          "musicResponsiveListItemRenderer": {
+                            "flexColumns": [
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Death on Two Legs" } } },
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Queen" } } }
+                            ],
+                            "thumbnail": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/track1/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            },
+                            "navigationEndpoint": { "watchEndpoint": { "videoId": "track1id0001" } }
+                          }
+                        },
+                        {
+                          "musicResponsiveListItemRenderer": {
+                            "flexColumns": [
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Lazing on a Sunday Afternoon" } } },
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Queen" } } }
+                            ],
+                            "thumbnail": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/track2/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            },
+                            "navigationEndpoint": { "watchEndpoint": { "videoId": "track2id0002" } }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "contents": {
+    "singleColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "musicCarouselShelfRenderer": {
+                      "header": { "musicCarouselShelfBasicHeaderRenderer": { "title": { "runs": [{ "text": "Quick picks" }] } } },
+                      "contents": [
+                        {
+                          "musicTwoRowItemRenderer": {
+                            "title": { "runs": [{ "text": "A Night at the Opera" }] },
+                            "subtitle": { "runs": [{ "text": "Queen • Album" }] },
+                            "thumbnailRenderer": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/album2/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            },
+                            "navigationEndpoint": { "browseEndpoint": { "browseId": "MPREb_night123" } }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "musicShelfRenderer": {
+                      "title": { "simpleText": "Recently played" },
+                      "contents": [
+                        {
+                          "musicResponsiveListItemRenderer": {
+                            "flexColumns": [
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Bohemian Rhapsody" } } },
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "simpleText": "Queen" } } }
+                            ],
+                            "thumbnail": {
+                              "musicThumbnailRenderer": {
+                                "thumbnails": [{ "url": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/default.jpg", "width": 60, "height": 60 }]
+                              }
+                            },
+                            "navigationEndpoint": { "watchEndpoint": { "videoId": "fJ9rUzIMcZQ" } }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
